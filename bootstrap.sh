@@ -85,8 +85,19 @@ sudo bash -c "echo \"/usr/local/bin/fish\" >> /etc/shells"
 
 ## change default shell
 chsh -s /usr/local/bin/fish
+omf install
 
 # Mac OS X
 
 ## show hidden files in Finder
 defaults write com.apple.finder AppleShowAllFiles YES
+
+# Other configurations
+mkdir /Users/jirkapenzes/dev/github
+git clone https://github.com/jirkapenzes/dotfiles /Users/jirkapenzes/dev/github/dotfiles
+
+dotfiles_path="/Users/jirkapenzes/dev/github/dotfiles/"
+echo "DOT_FILES DIR: " >> $dotfiles_dir
+
+# dev setup
+sh $dotfiles_dir ".dev.sh"
