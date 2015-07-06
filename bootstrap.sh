@@ -71,6 +71,7 @@ apps=(
   vlc
   calibre
   avast
+  flashlight
 )
 
 # Install apps to /Applications
