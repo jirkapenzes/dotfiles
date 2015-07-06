@@ -29,6 +29,19 @@ read
 
 
 
+# bower
+npm install -g bower
+
+
+
+# bash - download solarized theme
+sudo git clone https://github.com/tomislav/osx-terminal.app-colors-solarized.git "/Users/jirkapenzes/dev/github"
+echo "Please open solarized theme and set it as default in bash preferences"
+echo "Press any key to continue ..."
+read
+
+
+
 # tomcat
 # https://wolfpaulus.com/jounal/mac/tomcat8/
 # http://blog.bolshchikov.net/post/50277857673/installing-tomcat-on-macos-with-homebrew
