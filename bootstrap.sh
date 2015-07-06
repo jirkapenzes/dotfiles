@@ -33,6 +33,7 @@ binaries=(
   jmeter
   wget
   leiningen
+  maven
 )
 
 echo "installing binaries..."
