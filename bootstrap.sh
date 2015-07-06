@@ -70,6 +70,7 @@ apps=(
   send-to-kindle
   vlc
   calibre
+  avast
 )
 
 # Install apps to /Applications
