@@ -46,12 +46,12 @@ read
 # https://wolfpaulus.com/jounal/mac/tomcat8/
 # http://blog.bolshchikov.net/post/50277857673/installing-tomcat-on-macos-with-homebrew
 
-brew install tomcat
+brew install tomcat6
 
-tomcat_version="$(ls /usr/local/Cellar/tomcat/)"
+tomcat_version="$(ls /usr/local/Cellar/tomcat6/)"
 echo "Installed Tomcat" $tomcat_version
 
-tomcat_dir="/usr/local/Cellar/tomcat/$tomcat_version/libexec"
+tomcat_dir="/usr/local/Cellar/tomcat6/$tomcat_version/libexec"
 sudo ln -s $tomcat_dir /Library/Tomcat
 sudo chown -R jirkapenzes /Library/Tomcat
 sudo chmod +x /Library/Tomcat/bin/*.sh
