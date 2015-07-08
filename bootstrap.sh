@@ -42,6 +42,7 @@ brew install ${binaries[@]}
 brew cleanup
 
 brew tap homebrew/binary
+brew tap homebrew/versions
 
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
