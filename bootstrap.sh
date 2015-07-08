@@ -90,6 +90,9 @@ sudo bash -c "echo \"/usr/local/bin/fish\" >> /etc/shells"
 chsh -s /usr/local/bin/fish
 omf install
 
+# make symbolink link of java 6 to standard JVM path (from system)
+sudo ln -s /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/ /Library/Java/JavaVirtualMachines/jdk1.6.0_65.jdk
+
 # Mac OS X
 
 ## show hidden files in Finder
