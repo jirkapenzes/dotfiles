@@ -72,6 +72,7 @@ apps=(
   calibre
   avast
   flashlight
+  adium
 )
 
 # Install apps to /Applications
