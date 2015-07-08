@@ -71,3 +71,8 @@ for i in {49000..50000}; do
   VBoxManage modifyvm "boot2docker-vm" --natpf1 "tcp-port$i,tcp,,$i,,$i";
   VBoxManage modifyvm "boot2docker-vm" --natpf1 "udp-port$i,udp,,$i,,$i";
 done
+
+
+
+# elasticsearch
+brew install elasticsearch
