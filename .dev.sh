@@ -59,3 +59,15 @@ sudo chmod +x /Library/Tomcat/bin/*.sh
 echo "Tomcat was succesfull installed"
 echo "You can run it via /Library/Tomcat/bin/startup.sh"
 echo "Tomcat will be located to localhost:8080"
+
+
+
+# docker
+# https://github.com/docker/docker/issues/4007
+boot2docker init
+
+# allow ports range 49000 - 50000
+for i in {49000..50000}; do
+  VBoxManage modifyvm "boot2docker-vm" --natpf1 "tcp-port$i,tcp,,$i,,$i";
+  VBoxManage modifyvm "boot2docker-vm" --natpf1 "udp-port$i,udp,,$i,,$i";
+done
