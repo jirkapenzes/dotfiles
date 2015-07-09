@@ -74,6 +74,7 @@ apps=(
   avast
   flashlight
   adium
+  emacs
 )
 
 # Install apps to /Applications
