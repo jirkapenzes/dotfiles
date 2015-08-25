@@ -29,6 +29,13 @@ read
 
 
 
+# openshift RHC client
+sudo gem install rhc
+sudo gem update
+rhc setup
+
+
+
 # bower
 npm install -g bower
 
