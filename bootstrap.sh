@@ -75,6 +75,7 @@ apps=(
   flashlight
   adium
   emacs
+  docker-compose
 )
 
 # Install apps to /Applications
