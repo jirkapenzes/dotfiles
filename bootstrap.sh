@@ -77,6 +77,7 @@ apps=(
   emacs
   docker-compose
   slack
+  the-unarchiver
 )
 
 # Install apps to /Applications
