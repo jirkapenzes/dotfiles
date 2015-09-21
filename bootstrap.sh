@@ -76,6 +76,7 @@ apps=(
   adium
   emacs
   docker-compose
+  slack
 )
 
 # Install apps to /Applications
