@@ -34,6 +34,7 @@ binaries=(
   wget
   leiningen
   maven
+  jenv
 )
 
 echo "installing binaries..."
