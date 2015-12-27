@@ -35,6 +35,7 @@ binaries=(
   leiningen
   maven
   jenv
+  tree
 )
 
 echo "installing binaries..."
